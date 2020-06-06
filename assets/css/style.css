@@ -324,11 +324,12 @@ img {
     color: #08cc7f;
     display: block;
     margin-bottom: 10px;
+    margin-top: 10px;
     font-family: 'Rubik', sans-serif;
 }
 
 .wpo-section-title h2 {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 700;
     margin: 0;
     display: inline-block;
