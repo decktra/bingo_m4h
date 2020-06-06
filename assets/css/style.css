@@ -313,7 +313,7 @@ img {
     position: relative;
     max-width: 500px;
     margin: auto;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 
@@ -328,25 +328,24 @@ img {
 }
 
 .wpo-section-title h2 {
-    font-size: 36px;
+    font-size: 25px;
     font-weight: 700;
     margin: 0;
     display: inline-block;
     position: relative;
-    line-height: 50px;
+    line-height: 30px;
 }
 
 @media (max-width: 991px) {
     .wpo-section-title h2 {
-        font-size: 45px;
-        font-size: 2.8125rem;
+        font-size: 25px;
     }
 }
 
 @media (max-width: 767px) {
     .wpo-section-title h2 {
         font-size: 25px;
-        line-height: 35px;
+        line-height: 30px;
     }
 }
 
@@ -2788,7 +2787,8 @@ img {
 
 .slide-caption .btns,
 .wpo-about-text .btns {
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     padding: 5px 0px;
 }
@@ -3935,17 +3935,17 @@ hero-style3
 .wpo-about-text-2 .wpo-section-title {
     text-align: left;
     margin: unset;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 .wpo-about-text p,
 .wpo-about-text-2 p {
-    margin-bottom: 35px;
+    margin-bottom: 10px;
 }
 
 .wpo-about-text {
-    padding-right: 50px;
-    padding-top: 30px;
+    padding-right: 20px;
+    padding-top: 10px;
 }
 
 .wpo-about-img img,
