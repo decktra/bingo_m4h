@@ -91,6 +91,7 @@ URL:            http://themeforest.net/user/wpoceans
 --------------------------------------------------------------*/
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -112,7 +113,7 @@ body {
 }
 
 p {
-    color: #777777;
+    color: #292828;
     line-height: 1.6em;
     font-size: 16px;
     font-weight: 400;
@@ -4086,7 +4087,9 @@ hero-style3
 }
 
 .wpo-case-text-top ul li span {
-    font-weight: 700;
+    font-weight: 700html {
+        scroll-behavior: smooth;
+      };
 }
 
 .case-btn ul {
@@ -4191,7 +4194,7 @@ hero-style3
 ===============================*/
 .wpo-counter-area,
 .wpo-counter-style-2 {
-    padding: 100px 0;
+    padding: 50px 0;
     background: url(../images/counter/counter.jpg) no-repeat center center / cover;
     position: relative;
 }
@@ -4237,7 +4240,7 @@ hero-style3
 .wpo-counter-style-2 .wpo-counter-grids .grid p {
     font-size: 18px;
     font-weight: normal;
-    color: #999;
+    color: #ffffff;
     padding-top: 5px;
     margin-bottom: 0;
 }

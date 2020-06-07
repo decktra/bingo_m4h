@@ -52,7 +52,7 @@
                     
                     <div class="cart-search-contact">
                         <div class="mini-cart">
-                            <a class="theme-btn" href="donate.html">Dona</a>
+                            <a class="theme-btn" href="#donate">Dona</a>
                         </div>
                     </div>
                 </div><!-- end of container -->
@@ -72,14 +72,14 @@
                                 <h2>Ninguno sin protección</h2>
                                 <span>Apoyando al personal de salud en Venezuela - #Covid19</span>
                             </div>
-                            <p>Trabajadores de la salud en Venezuela nos piden ayuda. Están preocupados porque <b>no tienen cómo protegerse ante la pandemia.</b></p>
+                            <p>Trabajadores de la salud en Venezuela nos piden ayuda. Están preocupados. <b>No tienen cómo protegerse ante la pandemia.</b></p>
                             <p>Los casos de coronavirus están aumentando aceleradamente en todo el país y sabemos que <b>lo peor está por llegar</b>. Con dedicación y compromiso, en un sistema de salud destrozado, el personal sanitario de primera línea, está combatiendo el virus y atendiendo a  contagiados. <b>Ponen en riesgo sus vidas y la de sus familiares, cada día.</b></p>
                             <p>Ellos hoy necesitan de nosotros. <b>¡Que ninguno se quede sin protección!</b></p>
                             <p>En abril y mayo, gracias a la solidaridad de muchos, pudimos entregar mascarillas, guantes, gel, y otros materiales de protección a personal de la salud en 34 centros de 11 estados del país.</p>
                             <p><b>Con tu ayuda podemos seguir protegiéndolos</b> y llegar a más. Ahora es cuando más se necesita.</p>
-                            <p>Ningún aporte es pequeño. Con tan sólo 2€ puedes salvar una vida.</p>
+                            <p>Ningún aporte es pequeño. Con tan sólo 5$ puedes salvar una vida.</p>
                             <div class="btns">
-                                <a href="index.html#" class="theme-btn" tabindex="0">Dona Ahora</a>
+                                <a href="#donate" class="theme-btn" tabindex="0">Dona Ahora</a>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
         </div>
         <!-- wpo-about-area end -->
         <!-- wpo-cta-area start -->
-        <div class="wpo-cta-area">
+        <div id="donate" class="wpo-cta-area">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -101,13 +101,13 @@
                             <h2>Tu Donación</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse </p>
                             <div class="btns class mb-3">
-                                <a href="#" class="theme-btn-s2">5$</a>
-                                <a href="#" class="theme-btn-s2">10$</a>
-                                <a href="#" class="theme-btn-s2">25$</a>
+                                <a href="https://www.meals4hope.org/donations/details?locale=es&amount=5&currency=USD&frecuency=single" class="theme-btn-s2">5$</a>
+                                <a href="https://www.meals4hope.org/donations/details?locale=es&amount=10&currency=USD&frecuency=single" class="theme-btn-s2">10$</a>
+                                <a href="https://www.meals4hope.org/donations/detailslocale=es&?amount=25&currency=USD&frecuency=single" class="theme-btn-s2">25$</a>
                             </div>
-                            <form>
-                                <input type="text" placeholder="Otra cantidad en $" class="form-control input-lg center-block" style="margin-bottom:20px;margin-top:20px;width:200px">
-                                <button class="theme-btn-s2" type="submit">Donar</button>
+                            <form onsubmit="window.location = 'https://www.meals4hope.org/donations/details?locale=es&currency=USD&frecuency=single&amount=' + amount.value; return false;">
+                                <input id="amount" placeholder="Otra cantidad en $" type="number" name="amount" type="number" min="0" class="form-control input-lg center-block" style="margin-bottom:20px;margin-top:20px;width:220px" required></input>
+                                <input class="theme-btn-s2" type="submit" value="Donar">
                             </form>
                         </div>
                     </div>
@@ -156,9 +156,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col wpo-section-title text-center">
-                        <h2 style="margin:30px">Somos Meals4Hope</h2>
+                        <h2 style="margin:30px">Visítanos en</h2>
                         <div class="btns">
-                            <a href="donate.html" class="theme-btn">Visita Meals4Hope.org</a>
+                            <a href="https://meals4hope.org" class="theme-btn">Meals4Hope</a>
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col col-xs-12">
-                                <p class="copyright">&copy; 2020 Meals4Hope. Todos los derechos reservados</p>
+                                <p class="copyright"><img src="assets/images/logo-white.png" style="height:40px" alt="logo"></p>
                             </div>
                         </div>
                     </div>
