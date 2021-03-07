@@ -4582,7 +4582,7 @@ hero-style3
 
 .wpo-cta-area,
 .wpo-cta-area-2 {
-    padding: 100px;
+    padding: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -4772,7 +4772,7 @@ hero-style3
 
     .wpo-cta-area,
     .wpo-cta-area-2 {
-        padding: 70px 5px;
+        padding: 50px 5px;
     }
 
     .wpo-cta-text h2 {

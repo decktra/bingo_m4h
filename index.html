@@ -64,25 +64,24 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 visible-sm visible-xs" style="padding:0;">
-                            <img class="img-responsive" src="assets/images/about3-sm.jpg" alt="">
+                            <img class="img-responsive" src="assets/images/bingo.jpg" alt="">
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="wpo-about-text text-justify">
                             <div class="wpo-section-title">
-                                <h2>¡Ninguno sin protección!</h2>
-                                <span><b>Apoyando al personal de salud en Venezuela - #Covid19</b></span>
+                                <h2 style="line-height: 1.2;">Te invitamos a nuestro PRIMER BINGO SOLIDARIO*</h2>
+                                <span><b>A beneficio de nuestros programas de alimentación en Venezuela</b></span>
                             </div>
-                            <p>Trabajadores de la salud en Venezuela nos piden ayuda. Están preocupados. <b>No tienen cómo protegerse ante la pandemia.</b></p>
-                            <p>Los casos de coronavirus están aumentando aceleradamente en todo el país y sabemos que <b>lo peor está por llegar</b>. Con dedicación y compromiso, en un sistema de salud destrozado, el personal sanitario de primera línea está combatiendo el virus y atendiendo a  contagiados. <b>Ponen en riesgo sus vidas y la de sus familiares, cada día.</b></p>
-                            <p>Ellos hoy necesitan de nosotros. <b>¡Que ninguno se quede sin protección!</b></p>
-                            <p>En abril y mayo, gracias a la solidaridad de muchos, pudimos entregar mascarillas, guantes, gel, y otros materiales de protección a personal de la salud en 34 centros de 11 estados del país.</p>
-                            <p><b>Con tu ayuda podemos seguir protegiéndolos</b> y llegar a más. Ahora es cuando más se necesita.</p>
-                            <p>Ningún aporte es pequeño. <b>Con tan sólo 5€ puedes salvar una vida.</b></p>
+                            <p>Acompáñanos el domingo 11 de Abril de 2021 y diviértete en familia con el Campamento La Llanada. Tendremos divertidos premios para toda la familia.</p>
+                            <p>Hora: 10:00 MIA | 12:00 CCS | 17:00 LON | 18:00 MAD</p>
+                            <p>*Donación Sugerida : 5 Euros o Dólares. (Por cada 5 $ /€ dones te regalamos un cartón</p>
+                            <p>Participa! Habrán muchas risas, algunos premios y lo más importante estarás poniendo un granito de arena para ayudar a los niños/as de Venezuela.</p>
+                            <p>Después de hacer el donativo recibirás un mail de La Llanada con el/los cartón/nes acompañado del link de zoom para que te conectes el día y a la hora del Bingo virtual.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 hidden-sm hidden-xs">
+                    <div class="col-lg-4 col-md-6 col-sm-12 hidden-sm hidden-xs">
                         <div class="wpo-about-img-3">
-                            <img src="assets/images/about3.png" alt="">
+                            <img class="img-responsive" src="assets/images/bingo.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -95,19 +94,14 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="wpo-cta-text">
-                            <h2>Dona ahora</h2>
-                            <p>
-                                <b style="font-size:18px;"><i>"Muchisimas gracias por su importante donación,<br>les aseguro que salvará vidas"</i></b><br>
-                                <span style="font-size:14px;">Dr. AF Hospital Universitario de Mérida</span>
-                            </p>
-                            <p></p>
-                            <div class="btns class mb-3">
-                                <a href="https://www.meals4hope.org/donations/details?locale=es&amount=5&currency=EUR&frecuency=single&covid=true" class="theme-btn-s2">5€</a>
-                                <a href="https://www.meals4hope.org/donations/details?locale=es&amount=10&currency=EUR&frecuency=single&covid=true" class="theme-btn-s2">10€</a>
-                                <a href="https://www.meals4hope.org/donations/details?locale=es&amount=25&currency=EUR&frecuency=single&covid=true" class="theme-btn-s2">25€</a>
-                            </div>
-                            <form onsubmit="window.location = 'https://www.meals4hope.org/donations/details?locale=es&currency=EUR&frecuency=single&covid=true&amount=' + amount.value; return false;">
-                                <input id="amount" placeholder="Otra cantidad en €" type="number" name="amount" type="number" min="0" class="form-control input-lg center-block" style="margin-bottom:20px;margin-top:20px;width:220px" required></input>
+                            <h2>Compra tu(s) cartón(es)</h2>
+                            <form onsubmit="window.location = 'https://donations.meals4hope.org/donations/details?locale=es&currency='  + currency.value + '&frecuency=single&bingo=true&amount=' + amount.value*5; return false;">
+                                <select id="currency" name="currency" class="form-control input-lg center-block" style="margin-bottom:20px;margin-top:20px;width:280px" required>
+                                    <option value="EUR">Elija la moneda de pago</option>
+                                    <option value="EUR">Euros</option>
+                                    <option value="USD">Dólares</option>
+                                </select>
+                                <input id="amount" placeholder="Indique cuántos cartones" type="number" name="amount" type="number" min="0" class="form-control input-lg center-block" style="margin-bottom:20px;margin-top:20px;width:280px" required></input>
                                 <input class="theme-btn-s2" type="submit" value="Donar">
                             </form>
                         </div>
@@ -116,42 +110,6 @@
             </div>
         </div>
         <!-- wpo-cta-area end -->
-        <!-- .wpo-counter-area start -->
-        <div class="wpo-counter-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="wpo-counter-grids">
-                            <div class="grid">
-                                <div>
-                                    <h2><span class="odometer" data-count="3390">00</span>+</h2>
-                                </div>
-                                <p>Euros</p>
-                            </div>
-                            <div class="grid">
-                                <div>
-                                    <h2><span class="odometer" data-count="770">00</span>+</h2>
-                                </div>
-                                <p>Kits de protección</p>
-                            </div>
-                            <div class="grid">
-                                <div>
-                                    <h2><span class="odometer" data-count="547">00</span>+</h2>
-                                </div>
-                                <p>Kits de higiene</p>
-                            </div>
-                            <div class="grid">
-                                <div>
-                                    <h2><span class="odometer" data-count="680">00</span>+</h2>
-                                </div>
-                                <p>Personal de salud</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- .wpo-counter-area end -->
         <!-- start of hero -->
         <section>
             <div class="container">
